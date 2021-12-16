@@ -16,7 +16,6 @@ router
 
 // Set up GET one, PUT, and DELETE at /api/pizzas/:id
 router
-router
   .route('/:id')
   .get(getPizzaById)
   .put(updatePizza)
